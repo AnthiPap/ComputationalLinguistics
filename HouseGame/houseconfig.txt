@@ -1,0 +1,36 @@
+#Rooms
+room Hall
+room Kitchen
+room Garderobe
+room Bedroom
+room Wc
+room Balcony
+room Corridor
+room Office
+room Bathroom
+
+#Doors dir1-dir2 status room1 room2
+door S-N closed Hall Garderobe
+door W-E locked Kitchen Garderobe
+door W-E closed Bathroom Kitchen
+door W-E locked Office Corridor
+door S-N closed Corridor Kitchen
+door W-E open Corridor Hall
+door N-S closed Corridor Bedroom
+door E-W locked Wc Bedroom 
+door E-W closed Bedroom Balcony
+door N-S open Office Balcony
+
+#Items id location type use text
+item soap Wc usable wash You_used_the_soap_to_wash_your_hands
+item book Bedroom usable read The_title_of_this_book_is_Harry_Potter_and_the_prisoner_of_Azkaban
+item plant Balcony stationary
+item letter Office usable read It_is_actually_a_bill_for_the_electric_company._Who_sends_paper_mail_nowadays,_anyway?
+item key Corridor movable
+item coat Garderobe usable wear You_put_the_coat_on._Someone_left_the_balcony_door_open_and_the_draft_is_making_the_house_quite_chilly.
+item stove Kitchen stationary
+item towel Bathroom movable
+
+
+#Start Position
+start Hall
