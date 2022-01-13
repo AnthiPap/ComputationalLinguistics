@@ -1,2 +1,2 @@
 # ComputationalLinguistics
-Projects completed during the MA in Computational Linguistics, using Python.
+Projects completed during my MA in Language Technology (Uppsala University), using Python.
